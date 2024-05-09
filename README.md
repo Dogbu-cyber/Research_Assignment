@@ -16,7 +16,7 @@ Available Routes
 
 **Modules**
 
-**pull_data.py: Utilizes the SEC Edgar library to download Form 10-K filings and cleans data from the "Item 8" section using regular expressions.**
+**pull_data.py: Utilizes the SEC Edgar library to download Form 10-K filings and extracts data from the "Item 8" section using regular expressions. This data is then further cleaned using BeautifulSoup.**
 
 **llm_analyze.py: Leverages the AWS Bedrock API to retrieve and analyze net income and operating income for a specified company and year. Generates a summary of the financial health based on the "Item 8" text and stores this information in a structured text file.**
 
