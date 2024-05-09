@@ -61,4 +61,10 @@ Or, execute the following command to start the Flask server:
 ```bash
 python app.py
 
+**What I could have done differently**
+
+1. Used SQL or something similar - I didn't think this was needed since I was dealing with a small amount of data.
+
+2. Have claude return output as Json object to ensure consistent formatting
+
 Thank you for reading :)
