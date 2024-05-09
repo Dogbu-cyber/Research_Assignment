@@ -1,0 +1,10 @@
+Net Income: -$1,045
+Operating Income: -$1,070
+
+Summary: Based on the financial information provided in the report, Apple Computer's overall financial health appears to be in a weakened state. The company reported significant net losses of $1,045 million and operating losses of $1,070 million for the fiscal year 1997. This indicates that the company's core business operations were not generating sufficient revenue to cover its expenses, leading to substantial losses.
+
+The report cites several factors that contributed to Apple's poor financial performance, including a 28% decline in net sales compared to the prior year, continued competitive pressures in the personal computer market, and the need to restructure the company's operations to reduce costs and restore profitability. The company also incurred significant special charges, including a $375 million write-off for in-process research and development related to the acquisition of NeXT Software, and $217 million in restructuring costs.
+
+The company's gross margin improved from 10% in 1996 to 19% in 1997, primarily due to a one-time charge in 1996 related to inventory write-downs and excess component orders. However, the report indicates that gross margins will remain under significant downward pressure due to continued industry-wide pricing pressures, increased competition, and compressed product life cycles.
+
+Overall, the financial data suggests that Apple was facing significant challenges in 1997, with declining sales, substantial losses, and the need for extensive restructuring efforts to address its competitive and operational issues. The company's ability to return to profitability and financial stability will likely depend on its success in implementing its restructuring plan, managing costs, and developing and marketing competitive products in the rapidly evolving personal computer market.

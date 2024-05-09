@@ -1,0 +1,11 @@
+Net Income: -$816 million
+Operating Income: -$1,383 million
+
+Summary:
+The financial health of Apple Computer, Inc. appears to be in a precarious state based on the information provided in the report. The company reported significant net losses of $816 million and operating losses of $1,383 million in fiscal year 1996. This represents a stark contrast to the net income of $424 million and operating income of $684 million reported in the prior year. 
+
+The company's gross margin also declined sharply from 25.8% in 1995 to just 9.8% in 1996, indicating intense pricing pressures and an inability to maintain profitability amidst competitive market conditions. The report cites the company's need to implement a restructuring plan to reduce costs and restore profitability, which resulted in significant one-time charges.
+
+Additionally, the company's cash and cash equivalents position, while still substantial at $1,745 million, declined from the prior year's level of $952 million. This, combined with the significant operating losses, raises concerns about the company's ability to sustain its operations and investments in the long term without additional financing or a successful turnaround of its business.
+
+Overall, the financial data presented paints a picture of a company struggling to maintain its competitive position and profitability in a rapidly evolving and highly competitive personal computing market. The company's ability to execute its restructuring plan and return to sustained profitability will be crucial in determining its future financial health and viability.

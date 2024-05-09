@@ -1,0 +1,12 @@
+Net Income: $16,978 million
+
+Operating Income: $21,763 million
+
+Summary:
+Microsoft's financial health appears strong overall, based on the data provided in the report. The company reported robust net income of $16,978 million and operating income of $21,763 million for the fiscal year 2012. This represents a decline in net income compared to the prior year, primarily due to a $6.2 billion goodwill impairment charge related to the Online Services Division. However, the company's core business segments, including Windows & Windows Live Division, Server and Tools, and Microsoft Business Division, continued to generate strong revenue and operating income.
+
+The report highlights Microsoft's diversified revenue streams, with significant contributions from products such as the Microsoft Office system, Windows PC operating systems, and server products and tools. The company also saw growth in its cloud-based offerings and the Xbox 360 platform. This diversification suggests Microsoft has a well-rounded business model that is not overly reliant on any single product or service.
+
+Microsoft's balance sheet appears healthy, with $63,040 million in cash, cash equivalents, and short-term investments as of June 30, 2012. The company has also maintained a strong capital structure, with $22,220 million in long-term debt and $66,363 million in stockholders' equity.
+
+Overall, the data indicates that Microsoft continues to be a financially robust company, with a diversified business model, strong cash position, and healthy capital structure. The company's ability to generate substantial operating and net income, despite the one-time goodwill impairment charge, suggests it is well-positioned to navigate the evolving technology landscape and continue delivering value to shareholders.

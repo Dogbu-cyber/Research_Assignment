@@ -1,0 +1,11 @@
+Net Income: $2,195
+
+Operating Income: $3,078
+
+Summary: Microsoft's financial health appears strong based on the data provided in the report. The company has seen consistent growth in both net income and operating income over the past three fiscal years, with net income increasing from $1,146 million in 1994 to $2,195 million in 1996, and operating income increasing from $1,726 million to $3,078 million over the same period. 
+
+The company's balance sheet also reflects a healthy financial position, with cash and short-term investments totaling $6,940 million as of June 30, 1996, up from $4,750 million the prior year. Stockholders' equity has grown from $4,450 million in 1994 to $6,908 million in 1996, indicating the company is effectively reinvesting its profits to drive growth.
+
+Additionally, Microsoft's return on net revenues has remained relatively stable, ranging from 24.5% to 25.7% over the three-year period, suggesting the company is maintaining its profitability despite rapid revenue growth.
+
+Overall, the data presented in the report suggests Microsoft is in a strong financial position, with a track record of consistent growth in both top-line and bottom-line performance, a robust balance sheet, and healthy profitability metrics.

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <div class="text-center mb-5">
+    <h1 class="display-4 fw-bold text-white">Welcome.</h1>
+    <p class="lead text-muted">Pick a stock and year to see a chart of operating income and net income over time</p>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form id="stockForm" action="" method="get" class="form-inline d-flex justify-content-center mb-4">
+        <select id="stockName" name="stock_name" class="form-select form-select-lg me-3 bg-dark text-white">
+          <option value="" disabled selected>Select a stock</option>
+          <option value="apple">Apple</option>
+          <option value="microsoft">Microsoft</option>
+        </select>
+        <select id="year" name="year" class="form-select form-select-lg me-3 bg-dark text-white" disabled>
+          <option value="" disabled selected>Select a year</option>
+        </select>
+        <button type="submit" class="btn btn-primary btn-lg" disabled>Go</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <p class="lead text-muted mb-4">Or click to see full charts for the stock</p>
+    <div class="d-flex justify-content-center">
+      <a href="/dash/apple" class="btn btn-outline-primary btn-lg me-3">Apple</a>
+      <a href="/dash/microsoft" class="btn btn-outline-primary btn-lg">Microsoft</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  var stockName = document.getElementById('stockName');
+  var year = document.getElementById('year');
+  var submitButton = document.querySelector('button[type="submit"]');
+  var aaplYears = {{ aapl_years|tojson }};
+  var msftYears = {{ msft_years|tojson }};
+
+  stockName.addEventListener('change', function() {
+    year.disabled = false;
+    submitButton.disabled = false;
+    while (year.options.length > 1) {
+      year.remove(1);
+    }
+    var years = this.value === 'apple' ? aaplYears : msftYears;
+    years.forEach(function(yearValue) {
+      var option = new Option(yearValue, yearValue);
+      year.options.add(option);
+    });
+  });
+
+  document.getElementById('stockForm').addEventListener('submit', function(e) {
+    var stockName = document.getElementById('stockName').value;
+    var year = document.getElementById('year').value;
+    this.action = '/stock/' + stockName + '/' + year;
+  });
+</script>
+{% endblock %}
