@@ -44,7 +44,7 @@ To run this project, you will need to install the following dependencies:
 - **Dash:** Framework for building interactive web-based dashboards.
 - **Plotly:** Library for creating interactive plots and graphs.
 - **SEC-Edgar:** Library for downloading filings from the U.S. Securities and Exchange Commission.
-- **AWS Bedrock API:** API for accessing AWS services and resources.
+- **Anthropic:** API for accessing AWS services for Claude.
 - **Regular Expressions (re):** Module for text manipulation using regular expressions.
 
 ### Usage
