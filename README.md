@@ -7,25 +7,30 @@ This project aims to visualize and analyze key financial indicators—net income
 Available Routes
 
 /: The home page displays links to the financial data for Apple and Microsoft.
+
 /stock/<string:stock_name>/<int:year>: Shows the net income, operating income, and a financial summary for the specified stock and year.
+
 /dash/apple: Visualizes Apple's net income and operating income trends over the years using Dash.
+
 /dash/microsoft: Visualizes Microsoft's net income and operating income trends over the years using Dash.
 
-Modules
+**Modules**
 
-pull_data.py: Utilizes the SEC Edgar library to download Form 10-K filings and extracts data from the "Item 8" section using regular expressions.
-llm_analyze.py: Leverages the AWS Bedrock API to retrieve and analyze net income and operating income for a specified company and year. Generates a summary of the financial health based on the "Item 8" text and stores this information in a structured text file.
-generate_charts.py: Produces bar charts visualizing net income and operating income over time, and manages data storage within dictionaries.
+**pull_data.py: Utilizes the SEC Edgar library to download Form 10-K filings and extracts data from the "Item 8" section using regular expressions.**
+
+**llm_analyze.py: Leverages the AWS Bedrock API to retrieve and analyze net income and operating income for a specified company and year. Generates a summary of the financial health based on the "Item 8" text and stores this information in a structured text file.**
+
+**generate_charts.py: Produces bar charts visualizing net income and operating income over time, and manages data storage within dictionaries.**
 
 Design Process
 
 1. Data Acquisition and Preparation (Relevant files: pull_data.py)
    
-The initial challenge was managing the extensive size of the 10-K filings to facilitate effective analysis by our language models. Utilizing the regex (regular expression library), I identified the specific sections in the HTML marked as "Financials and Supplementary Data." By extracting and isolating the text from this section, I reduced the data scope significantly—from about 4-5 million tokens in documents post-1990s to a more manageable 40-50 thousand tokens. This reduction made the documents compatible with flagship AI models like Google Gemini and Anthropic's Claude, which are designed to handle extensive datasets efficiently.
+The initial challenge was managing the extensive size of the 10-K filings to facilitate effective analysis by my llm of choice. Utilizing the regex (regular expression library), I identified the specific sections in the HTML marked as "Financials and Supplementary Data." By extracting and isolating the text from this section, I reduced the data scope significantly—from about 4-5 million tokens in documents post-1990s to a more manageable 40-50 thousand tokens. This reduction made the documents compatible with flagship AI models like Google Gemini and Anthropic's Claude, which are designed to handle extensive datasets efficiently.
 
 2. Insight Generation (Relevant files: llm_analyze.py)
    
-Choosing the appropriate language model (LLM) was a pivotal decision. Due to cost constraints, OpenAI’s GPT series was not considered. Open-source models like Llama and Mistral were evaluated, but their token limits and frequent inaccuracies in data representation made them less viable. After reviewing alternatives, Google’s Gemini 1.5 Pro and Anthropic’s Claude 3 Haiku models stood out, particularly for their data handling capabilities. The Claude 3 Haiku model, accessed via AWS Bedrock, offered the best cost-performance balance, with total API costs under 60 cents for this project.
+Choosing the appropriate language model (LLM) was a pivotal decision. Due to cost constraints, OpenAI’s GPT series was not considered. Open-source models like Llama and Mistral were evaluated, but their token limits and frequent inaccuracies made them less viable. After reviewing alternatives, Google’s Gemini 1.5 Pro and Anthropic’s Claude 3 Haiku models stood out, particularly for their data handling capabilities. The Claude 3 Haiku model, accessed via AWS Bedrock, offered the best cost-performance balance, with total API costs under 60 cents for this project.
 
 3. Visualization and Interface Development (Relevant files/folders: templates, static, app.py, generate_charts.py)
    
@@ -58,3 +63,4 @@ Or, execute the following command to start the Flask server:
 ```bash
 python app.py
 
+Thank you for reading :)
