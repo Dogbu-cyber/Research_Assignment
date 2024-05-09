@@ -37,15 +37,15 @@ I had a lot of fun working on this project and learned a great deal. Prior to th
 
 ### Dependencies
 
-To run this project, you will need to install the following dependencies:
+To run, you will need to install the following dependencies:
 
-- **Python:** Programming language used for developing the application.
-- **Flask:** Micro web framework for building web applications.
-- **Dash:** Framework for building interactive web-based dashboards.
-- **Plotly:** Library for creating interactive plots and graphs.
-- **SEC-Edgar:** Library for downloading filings from the U.S. Securities and Exchange Commission.
-- **Anthropic:** API for accessing AWS services for Claude.
-- **Regular Expressions (re):** Module for text manipulation using regular expressions.
+- [Python](https://www.python.org/) - Programming language used for developing the application.
+- [Flask](https://flask.palletsprojects.com/) - Micro web framework for building web applications.
+- [Dash](https://dash.plotly.com/) - Framework for building interactive web-based dashboards.
+- [Plotly](https://plotly.com/python/) - Library for creating interactive plots and graphs.
+- [SEC-Edgar](https://pypi.org/project/sec-edgar-downloader/) - Library for downloading filings from the U.S. Securities and Exchange Commission.
+- [Anthropic Bedrock API](https://docs.anthropic.com/claude/reference/claude-on-amazon-bedrock) - API for accessing AWS services and resources.
+- [Regular Expressions (re)](https://docs.python.org/3/library/re.html) - Module for text manipulation using regular expressions.
 
 ### Usage
 
