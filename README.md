@@ -16,7 +16,7 @@ Available Routes
 
 **Modules**
 
-**pull_data.py: Utilizes the SEC Edgar library to download Form 10-K filings and extracts data from the "Item 8" section using regular expressions.**
+**pull_data.py: Utilizes the SEC Edgar library to download Form 10-K filings and cleans data from the "Item 8" section using regular expressions.**
 
 **llm_analyze.py: Leverages the AWS Bedrock API to retrieve and analyze net income and operating income for a specified company and year. Generates a summary of the financial health based on the "Item 8" text and stores this information in a structured text file.**
 
@@ -48,8 +48,6 @@ To run, you will need to install the following dependencies:
 - [Flask](https://flask.palletsprojects.com/) - Micro web framework for building web applications.
 - [Dash](https://dash.plotly.com/) - Framework for building interactive web-based dashboards.
 - [Plotly](https://plotly.com/python/) - Library for creating interactive plots and graphs.
-- [SEC-Edgar](https://pypi.org/project/sec-edgar-downloader/) - Library for downloading filings from the U.S. Securities and Exchange Commission.
-- [Anthropic Bedrock API](https://docs.anthropic.com/claude/reference/claude-on-amazon-bedrock) - API for accessing AWS services and resources.
 - [Regular Expressions (re)](https://docs.python.org/3/library/re.html) - Module for text manipulation using regular expressions.
 
 ### Usage
